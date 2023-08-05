@@ -3,7 +3,7 @@ import Post from '../post/Post'
 import Share from '../share/Share'
 import './feed.css';
 import axios from "axios"
-//import { Posts } from '../../dummyData';
+//import { Posts } from '../../dummyData' ;
 
 const Feed = () => {
   const BASE_URL = process.env.REACT_APP_BASE_URL;
